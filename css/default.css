@@ -1,0 +1,168 @@
+/*Betütípusok*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+/*Nyomtatási nézett*/
+@media print {
+
+    header,
+    nav,
+    footer,
+    figcaption,
+    video {
+        display: none;
+    }
+
+    img {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+body {
+    font-family: Ubuntu, Helvetica, sans-serif;
+    background-color: #ccffff;
+    font-size: 15px;
+}
+
+header {
+
+    background-color: #0f0fd7;
+    opacity: 0.6;
+    background-image: linear-gradient(30deg, #2dc2ca 12%, transparent 12.5%, transparent 87%, #2dc2ca 87.5%, #2dc2ca), linear-gradient(150deg, #2dc2ca 12%, transparent 12.5%, transparent 87%, #2dc2ca 87.5%, #2dc2ca), linear-gradient(30deg, #2dc2ca 12%, transparent 12.5%, transparent 87%, #2dc2ca 87.5%, #2dc2ca), linear-gradient(150deg, #2dc2ca 12%, transparent 12.5%, transparent 87%, #2dc2ca 87.5%, #2dc2ca), linear-gradient(60deg, #2dc2ca77 25%, transparent 25.5%, transparent 75%, #2dc2ca77 75%, #2dc2ca77), linear-gradient(60deg, #2dc2ca77 25%, transparent 25.5%, transparent 75%, #2dc2ca77 75%, #2dc2ca77);
+    background-size: 36px 63px;
+    background-position: 0 0, 0 0, 18px 32px, 18px 32px, 0 0, 18px 32px;
+    color: white;
+
+
+}
+
+nav {
+    background-color: #0f0fd7;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+    border: 2.5px solid black;
+    margin: 10px;
+}
+
+figcaption {
+
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+}
+
+hr {
+    border-top: 5px solid #10e4e4;
+}
+
+table,
+th,
+td {
+    border: 2.5px solid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: cyan;
+}
+
+a:active {
+    color: yellow;
+}
+
+textarea {
+    resize: none;
+    background-image: url("../media/6.jpg");
+    color:white;
+}
+
+/*Osztályok*/
+
+.title {
+    text-shadow: 7px 7px 5px rgba(150, 150, 150, 1);
+}
+
+.sidebyside {
+    flex: 33.33%;
+    padding: 0px;
+    text-align: center;
+}
+
+.meretezett {
+    width: auto;
+    height: 250px;
+}
+
+.tablehead {
+    background-color: black;
+    color: white;
+}
+
+.alul {
+    background-color: white;
+    border:  1px solid black;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.jelenlegi {
+    color: grey;
+}
+
+.nounderline {
+    text-decoration: none;
+}
+
+a.other:link {
+    color: black;
+}
+
+a.other:visited {
+    color: grey;
+}
+
+a.other:hover {
+    color: red;
+}
+
+a.other:active {
+    color: goldenrod;
+}
+
+.balra {
+    float: left;
+}
+
+.jobbra {
+    float: right;
+}
