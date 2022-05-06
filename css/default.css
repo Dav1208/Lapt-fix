@@ -21,7 +21,7 @@
 
 body {
     font-family: Ubuntu, Helvetica, sans-serif;
-    background-color: #ccffff;
+    background-color: #62dfdf;
     font-size: 15px;
 }
 
@@ -38,12 +38,13 @@ header {
 }
 
 nav {
-    background-color: #0f0fd7;
+    background-color: #0b0b51;
 }
 
 h1 {
     text-align: center;
     font-size: 50px;
+    color: #bbff00;
 }
 
 h2 {
@@ -136,7 +137,7 @@ textarea {
 }
 
 .jelenlegi {
-    color: grey;
+    color: #bbff00;
 }
 
 .nounderline {
